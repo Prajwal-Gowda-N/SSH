@@ -1,2 +1,5 @@
 ssh-keygen -t ed25519 -C "<email>"
 
+Run as adminstrator 
+
+netsh advfirewall firewall add rule name="Allow Port 8000" dir=in action=allow protocol=TCP localport=8000 
